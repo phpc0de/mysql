@@ -9,12 +9,12 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
-	"gorm.io/gorm"
-	"gorm.io/gorm/callbacks"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"github.com/phpc0de/backupgorm"
+	"github.com/phpc0de/backupgorm/callbacks"
+	"github.com/phpc0de/backupgorm/clause"
+	"github.com/phpc0de/backupgorm/logger"
+	"github.com/phpc0de/backupgorm/migrator"
+	"github.com/phpc0de/backupgorm/schema"
 )
 
 type Config struct {
