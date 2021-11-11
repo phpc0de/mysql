@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"github.com/phpc0de/backupgorm"
+	"github.com/phpc0de/backupgorm/clause"
+	"github.com/phpc0de/backupgorm/migrator"
+	"github.com/phpc0de/backupgorm/schema"
 )
 
 type Migrator struct {
